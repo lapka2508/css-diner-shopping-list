@@ -1,0 +1,97 @@
+
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+html, body {
+	min-height: 100%;
+}
+body {
+	height: 100%;
+	background: #3B3F45;
+	border: 20px solid #fff;
+}
+h1, h3, p {
+	font-family:'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	color: #E97C7B;
+}
+p {
+	font-size: 20px;
+}
+li {font-family:'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	color: #fff;
+	text-align: left;
+	display: block;
+	list-style: none;
+	padding: 10px 0;
+	margin: 0;
+	border: 0;
+}
+.vk-list {
+   margin: 0 0 20px;
+   padding-left: 0;
+}
+.vk-header {
+	margin: 0;
+	background-color: #4A4F56;
+	display: block;
+	text-align: center;
+	padding: 5px 0;
+}
+.vk-container {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 70px;
+}
+.vk-footer {
+	background-color: #4A4F56;
+	text-align: center;
+	color: #EB7E7E;
+	margin: 15px 0 0 0;
+	padding: 4px 0;
+}
+label {
+	display: block;
+	cursor: pointer;
+	padding: 5px;
+}
+.vk-list [type="checkbox"] {
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+.vk-list [type="checkbox"]:checked + span {
+ 	text-decoration: line-through;
+ 	color: #cdcbd6;
+}
+.vk-list .vo-description {
+	font-size: 60%;
+	color: #cdcbd6;
+	vertical-align: middle;
+}
+.vk-description {
+	color: inherit;
+}
+.vk-list li:nth-child(odd) {
+	background-color: #88839E;
+}
+.vk-list li:nth-child(even) {
+	background-color: #7A7593;
+}
+.vk-list li:hover {
+	background-color: #625E77;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 2px 0;
+}
+.vk-list li:active {
+	background: #E97C7B;
+}
+
+
